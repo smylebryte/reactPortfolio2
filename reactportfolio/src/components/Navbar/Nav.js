@@ -9,9 +9,15 @@ function NavMenu(props) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#aboutme">About Me</Nav.Link>
-          <Nav.Link href="#mywork">My Work</Nav.Link>
-          <Nav.Link href="#contactme">Contact Me</Nav.Link>
+          <Nav.Link className="navlink" href="#aboutme">
+            About Me
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#mywork">
+            My Work
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#contactme">
+            Contact Me
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -19,13 +19,13 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/aboutme">
+            <Route className="navlink" path="/aboutme">
               <AboutMe />
             </Route>
-            <Route path="/contactme">
+            <Route className="navlink" path="/contactme">
               <ContactMe />
             </Route>
-            <Route path="/">
+            <Route className="navlink" path="/">
               <Projects2 />
             </Route>
           </Switch>
